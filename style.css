@@ -1,0 +1,234 @@
+
+.open-sans {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-1{
+    color: #181818;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+.bg-color{
+    background-color: #FFF8F3;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+}
+/* Nav Style */
+body{
+    margin-top: 0;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+.bg-cover{
+    background-image: url(developer.png),url(header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 150px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+} 
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+}
+/* header contant */
+.header-contant{
+    display: flex;
+    margin: 1px 38px 7px 150px ;
+    justify-content: space-between;
+}
+.secoundery-contant , .head-sub-title , .head-title, .head-discription{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+.secoundery-contant{
+    margin: 0;
+    padding: 100px 0;
+    height: 356px;
+    width: 585px;
+}
+.hardy-image{
+    width: 584px;
+    height: 676px;
+}
+.head-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.head-sub-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+/* main section */
+.about{
+    border-radius: 10px;
+    margin-top: 130px;
+    padding:130px 150px ;
+    max-width: 1140px;
+    margin: 130px auto;
+    
+}
+.primary{
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #000000;
+}
+section .main-about{
+    font-weight: bold;
+    font-size: 35px;
+}
+.main-discription{
+    font-size: 18px;
+}
+.About-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-item{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.about-title{
+    font-size: 20px;
+}
+.about-description{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* What i do section-2 */
+.contaner-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.contaner-discription{
+    text-align: center;
+    max-width: 909px;
+    margin: 0 auto;
+}
+.contaner-box{
+    display: flex;
+    margin: 50px 230px;
+    gap: 24px;
+}
+.contaner-sub-box{
+    height: 267px;
+    width: 377px;
+    border-radius: 5px;
+    padding: 30px 33px 30px 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+/* A summary of My Resume */
+.item{
+    display: grid;
+    padding: 0 230px;
+    grid-template-columns: repeat(2,1fr);
+}
+.items{
+    margin: 30px;
+}
+.resume-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 130px;
+    margin-bottom: 113px;
+}
+.items h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.items h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.position{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.bttn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+/* footer section */
+footer{
+    background-color: rgba(255, 248, 243, 1);
+    height: 400px;
+    margin-top: 113px;
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+}
+footer h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.social{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.submit{
+    display: block;
+}
+.submit input{
+    border: none;
+    margin: 12px 0px 12px 0px;
+    height: 55px;
+    width: 400px;
+    border-radius: 5px;
+}
+::placeholder{
+    padding: 18px 30px;
+}
+.message{
+    height: 180px;
+    width: 400px;
+    border: none;
+}
