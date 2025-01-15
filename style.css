@@ -40,7 +40,7 @@ header{
     padding: 0;
 }
 .bg-cover{
-    background-image: url(developer.png),url(header_bg.png);
+    background-image: url(/assest/developer.png),url(/assest/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left , bottom right;
 
