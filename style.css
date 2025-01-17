@@ -133,6 +133,9 @@ section .main-about{
     font-size: 20px;
 }
 /* What i do section-2 */
+.contaner{
+    justify-content: center;
+}
 .contaner-header{
     text-align: center;
     font-weight: bold;
@@ -198,7 +201,7 @@ section .main-about{
 /* footer section */
 footer{
     background-color: rgba(255, 248, 243, 1);
-    height: 400px;
+    height: auto;
     margin-top: 113px;
     display: flex;
     padding: 130px 230px;
@@ -231,4 +234,25 @@ footer h1{
     height: 180px;
     width: 400px;
     border: none;
+}
+
+/* media quary and responsive */
+
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .contaner-box{
+        margin: auto;
+        flex-direction: column;
+    }
+    .item{
+        grid-template-columns: repeat(1,1fr);
+        padding: 0;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
 }
