@@ -40,7 +40,7 @@ header{
     padding: 0;
 }
 .bg-cover{
-    background-image: url(/assest/developer.png),url(/assest/header_bg.png);
+    background-image: url(assest/developer.png),url(assest/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left , bottom right;
 
@@ -269,9 +269,6 @@ footer h1{
         padding: 0;
     }
     .header-contant{
-        margin: 0;
-        padding: 0;
-        width: auto;
         display: flex;
         flex-direction: column;
     }
